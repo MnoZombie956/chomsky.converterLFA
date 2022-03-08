@@ -15,15 +15,15 @@ in short: the initial variable(P) generates lambda(λ) if its contained by the l
 
 There are several manipulations of a GLC which doesn't alter the generated language, although restructures the grammar rules productions. When applying multiple types of deletions in sequence, some rule types that have already been deleted may reappear, in order to avoid it there is a carefully defined sequence procedure to preserve elimination **consistency**(before and after):
 
-![step1](https://github.com/MnoZombie956/chomsky.converterLFA/tree/main/materials/step1.png?raw=false)
+![step1](https://github.com/MnoZombie956/chomsky.converterLFA/blob/main/materials/step1.png?raw=false)
 
-![step2](https://github.com/MnoZombie956/chomsky.converterLFA/tree/main/materials/step2.png?raw=false)
+![step2](https://github.com/MnoZombie956/chomsky.converterLFA/blob/main/materials/step2.png?raw=false)
 
-![step3](https://github.com/MnoZombie956/chomsky.converterLFA/tree/main/materials/step3.png?raw=false)
+![step3](https://github.com/MnoZombie956/chomsky.converterLFA/blob/main/materials/step3.png?raw=false)
 
-![step4](https://github.com/MnoZombie956/chomsky.converterLFA/tree/main/materials/step4.png?raw=false)
+![step4](https://github.com/MnoZombie956/chomsky.converterLFA/blob/main/materials/step4.png?raw=false)
 
-![step5](https://github.com/MnoZombie956/chomsky.converterLFA/tree/main/materials/step5.png?raw=false)
+![step5](https://github.com/MnoZombie956/chomsky.converterLFA/blob/main/materials/step5.png?raw=false)
 
 ## Running the test cases
 ``
