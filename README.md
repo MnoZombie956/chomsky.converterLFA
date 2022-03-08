@@ -2,12 +2,12 @@
 Given a context-free grammar (GLC) G, transforms it into an equivalent GLC G' in Chomsky normal form.
 
 ## Formal definition of a GLC
-GLC G: (V,Σ,R,P), ∀R: (X → w) ∧ (X ∈ V) ∧ (w ∈ (V ∪ Σ)^*)
+``GLC G: (V,Σ,R,P), ∀R: (X → w) ∧ (X ∈ V) ∧ (w ∈ (V ∪ Σ)^*)``
 
 in short: the production(w) of every rule(R) might be any combination of the language's alphabet(Σ) and variables(V). 
 
 ## Formal definition of Chomsky's Normal Form
-GLC in CNF G': (V, Σ, R, P), if λ ∈ L(G') then P → λ, ∀R: (X → YZ for X, Y, Z ∈ V) ∨ (X → a for a ∈ Σ)
+``GLC in CNF G': (V, Σ, R, P), if λ ∈ L(G') then P → λ, ∀R: (X → YZ for X, Y, Z ∈ V) ∨ (X → a for a ∈ Σ)``
 
 in short: the initial variable(P) generates lambda(λ) if its contained by the language, and all of the other rules must either product exactly two more rules(YZ) concatenated or a simbol(a) of the alphabet(Σ).
 
@@ -34,7 +34,7 @@ python3 chomsky.py G.json
 
 Try to convert a CFG to Greibach's Normal Form(GNF)!
 
-GLC in GNF G'' = (V, Σ, R, P), if λ ∈ L(G'') then P → λ, ∀R: X → ay for a ∈ Σ and y ∈ V^*
+``GLC in GNF G'' = (V, Σ, R, P), if λ ∈ L(G'') then P → λ, ∀R: X → ay for a ∈ Σ and y ∈ V^*``
 
 in short: the initial variable(P) generates lambda(λ) if its contained by the language, and all of the other rules must product exactly one simbol(a) of the alphabet(Σ) followed by any combination of other rules(y) concatenated.
 
